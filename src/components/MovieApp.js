@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 // Import SimpleReactLightbox
 import { SRLWrapper } from "simple-react-lightbox";
 // Mockups
-import HomeMockup from '../images/filmdex-desktop/filmdex-home-desktop-mockup.png';
+import HomeMockup from '../images/filmdex-desktop/filmdex-home-desktop-mockup.jpg';
 import SingleMockup from '../images/filmdex-desktop/filmdex-singlemovie-desktop-mockup.jpg';
 import FavouritesMockup from '../images/filmdex-desktop/filmdex-favourites-desktop-mockup.png';
 import AboutMockup from '../images/filmdex-desktop/filmdex-about-desktop-mockup.jpg';
@@ -110,7 +110,7 @@ const Projects = () => (
 						<div className="project-detail">
 							<h3 className="project-detail-title" id="next">Project Overview</h3>
 							<p>
-								In January 2021, I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen </a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. (Yes, the name is a play on words with Pokédex). There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
+								In January 2021, I collaborated remotely with <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen</a> to produce Filmdex, a movie database web application that allows users to view, sort, and search for movies in a database. (Yes, the name is a play on words with Pokédex). There are two key features that we added to improve the user experience. First, we built a search bar, that shows live search results. Secondly, we created a Favorites List that allows users to add their favorite films without logging in.
 						</p>
 							<p>
 								The web application was created using ReactJS by first installing NPM, node,js, and <code>create-react-app</code>, and then pulling data from the The Movie Database (TMDb) API. My role was focused on responsive design and on Sass styling. Specifically, my focus was to create the individual components, being the homepage grid, the single movie layout, as well as the footer.

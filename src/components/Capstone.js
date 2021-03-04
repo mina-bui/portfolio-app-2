@@ -106,7 +106,7 @@ const Capstone = () => (
 								In February 2021, I collaborated remotely in a team of three to produce ETOILE, a fictional apparel e-commerce store, whose mission is to combine minimalist designs with high quality fabrics. It enables users to purchase from various designer collections, as well as adding customizations, such as uploading their own images and adding embroidery.
 						</p>
 							<p>
-								The website was created using WordPress, PHP, JavaScript, Sass and GitHub with team members <a href="https://github.com/janice-lin" title="Github: janice-lin" target="_blank" rel="noreferrer" >Janice Lin </a> and <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen </a>. My role was to build an attractive UI design for the client's Wordpress interface, as well as for customers visiting the site.
+								The website was created using WordPress, PHP, JavaScript, Sass and GitHub with team members <a href="https://github.com/janice-lin" title="Github: janice-lin" target="_blank" rel="noreferrer" >Janice Lin</a> and <a href="https://github.com/v-nguyen6" title="Github: v-nguyen6" target="_blank" rel="noreferrer" >Vinson Nguyen</a>. My role was to build an attractive UI design for the client's Wordpress interface, as well as for customers visiting the site.
 						</p>
 							<ul className="project-technologies">
 

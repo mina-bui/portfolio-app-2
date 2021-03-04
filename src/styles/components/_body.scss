@@ -63,11 +63,12 @@ nav li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover:not(nav a) {
     text-decoration: underline;
+    opacity: 0.8;
     transition-duration: 0.4s;
 }
 

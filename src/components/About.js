@@ -37,7 +37,7 @@ const About = () => (
                 			</p>
 							<br />
 							<div className="about-resume">
-								<a href="https://drive.google.com/file/d/1PxueVpsUbijF1EendpfWJW2og5mBCtHE/view?usp=sharing"
+								<a href="https://www.canva.com/design/DAEXM23cN_Q/Yc985lB_HZoyMtpB2YhhnA/view?utm_content=DAEXM23cN_Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
 									className="hidden-on-mobile"
 									title="Mina Bui's Resume"
 									target="_blank"
