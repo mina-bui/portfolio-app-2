@@ -1,0 +1,141 @@
+// Main
+
+main {
+    padding: $section-padding;
+}
+section {
+    padding: 0px 25px;
+}
+
+// Main Banner
+.home-banner-wrapper {
+    text-align: center;
+}
+.home-banner {
+    height: 100%;
+    width: 300px;
+}
+
+// Project Title and Description
+.capstone-card {
+    grid-area: capstone;
+    margin-top: 50px;
+}
+.capstone-card:hover {
+    display: inline;
+}
+.movieapp-card {
+    grid-area: movieapp;
+    margin-top: 50px;
+}
+.portfolio-card {
+    grid-area: portfolio;
+    margin-top: 50px;
+}
+.brochure-card {
+    grid-area: brochure;
+    margin-top: 50px;
+}
+// Project Link to View Live
+.capstone-live-link {
+    grid-area: capstone-link;
+}
+.movieapp-live-link {
+    grid-area: movieapp-link;
+}
+.portfolio-live-link {
+    grid-area: portfolio-link;
+}
+.brochure-live-link {
+    grid-area: brochure-link;
+}
+// Grid Styling for Project List
+.home-introduction {
+    h2 {
+        font-size: 2em;
+        line-height: 34px;
+    }
+}
+.home-project-list {
+    column-gap: 50px;
+    display: grid;
+    grid-template-areas:
+        "movieapp"
+        "movieapp-link"
+        "capstone"
+        "capstone-link"
+        "portfolio"
+        "portfolio-link"
+        "brochure"
+        "brochure-link";
+    p {
+        font-size: 1.2em;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (min-width: 606px) and (max-width: 1082px) {
+    .home-project-list {
+        grid-template-areas:
+            "movieapp capstone"
+            "movieapp-link capstone-link"
+            "portfolio brochure"
+            "portfolio-link brochure-link";
+    }
+
+    .home-introduction {
+        h2 {
+            font-size: 2.25em;
+            line-height: 40px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1082px) {
+    .home-project-list {
+        grid-template-areas:
+            "movieapp capstone portfolio brochure"
+            "movieapp-link capstone-link portfolio-link brochure-link";
+    }
+    .home-introduction {
+        h2 {
+            font-size: 3em;
+            line-height: 54px;
+            margin-bottom: 0.6em;
+        }
+    }
+}
+
+// Popup Message Image
+.popup-message-container {
+    box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+}
+// Hide certain elements on mobile
+@media only screen and (max-width: 606px) {
+    .popup-message-container,
+    .home-banner {
+        display: none;
+    }
+}
+// Contact Me Button
+.contact-btn-wrapper {
+    margin: 25px 0px;
+}
+.contact-btn {
+    border-radius: 25px;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.contact-btn:hover {
+    border: 2px solid $orange;
+    color: $orange;
+    transition-duration: 0.4s;
+}
+// Project Heading
+.home-project-list-heading {
+    padding: 0px;
+    margin-top: 80px;
+    line-height: 0px;
+    font-weight: bold;
+}

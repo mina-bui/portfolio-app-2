@@ -1,0 +1,29 @@
+// Nav
+
+nav {
+    background-color: none;
+    overflow: hidden;
+    visibility: visible;
+    a {
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 300;
+        line-height: 32px;
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: underline;
+            transition-duration: 0.4s;
+        }
+    }
+
+    @include mq(em(1)) {
+        visibility: visible;
+
+        .show & {
+            visibility: visible;
+            transition: none;
+            height: auto;
+        }
+    }
+}

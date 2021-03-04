@@ -1,0 +1,13 @@
+// Wrapper
+
+.wrapper {
+    max-width: 1000px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    main {
+        flex: 1;
+    }
+    @include mc;
+}

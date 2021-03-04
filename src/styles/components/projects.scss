@@ -1,0 +1,220 @@
+// Project Title
+.project-detail {
+    margin: 100px 0px;
+}
+h2.project-detail-subtitle {
+    font-size: 1.5em;
+    line-height: 20px;
+    font-family: $bodyFont;
+}
+
+@media only screen and (max-width: 606px) {
+    h2.project-detail-title {
+        font-size: 2em;
+        line-height: 34px;
+    }
+    h3.project-detail-title {
+        font-size: 1.75em;
+        line-height: 34px;
+    }
+    h2.project-detail-subtitle {
+        font-size: 1.25em;
+        line-height: 20px;
+        font-family: $bodyFont;
+    }
+}
+
+// Hide certain elements on mobile
+@media only screen and (max-width: 819px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+    .project-laptop-wrapper {
+        margin-top: 50px;
+    }
+}
+// Show only certain elements on mobile
+@media only screen and (min-width: 820px) {
+    .mobile {
+        display: none;
+    }
+}
+// Project Screenshot on Laptop
+.project-laptop-wrapper {
+    text-align: center;
+    img {
+        height: 100%;
+        width: 600px;
+    }
+}
+// Project Technologies List
+.project-technologies {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+        margin: 5px 5px;
+        padding: 2px 8px;
+        border: 2px solid white;
+        background-color: white;
+        color: $darkOrange;
+        border-radius: 10px;
+    }
+}
+
+// Project Video
+.project-detail-video {
+    display: flex;
+    justify-content: center;
+}
+
+// Project Gallery
+.project-design-planning-gallery {
+    text-align: center;
+    img {
+        height: 100%;
+        width: 500px;
+        margin: 50px 0px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    }
+}
+#etoile-ia-background {
+    background-color: white;
+    padding: 25px 25px;
+}
+.project-detail-gallery {
+    text-align: center;
+    img {
+        height: 100%;
+        width: 350px;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    }
+}
+
+// Brochure high fidelity mockups
+.project-detail-gallery-brochure {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    img {
+        width: 350px;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    }
+    @media only screen and (max-width: 606px) {
+        display: block;
+        text-align: center;
+    }
+}
+.project-detail-gallery-movie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    img {
+        width: 350px;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    }
+    @media only screen and (max-width: 606px) {
+        display: block;
+        text-align: center;
+    }
+}
+// Brochure wireframes
+.project-detail-wireframe-brochure {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px;
+    img {
+        object-fit: cover;
+        object-position: 100% 0;
+        height: 500px;
+        width: auto;
+        margin: 10px 10px;
+        box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+        @media only screen and (max-width: 606px) {
+            height: 300px;
+        }
+    }
+}
+// Capstone high fidelity mockups and wireframes
+.project-detail-gallery-capstone {
+    text-align: center;
+    margin: 50px 0px;
+    img {
+        object-fit: cover;
+        object-position: 100% 0;
+        height: 300px;
+        width: auto;
+        margin: 10px 10px;
+    }
+}
+
+// Video
+video {
+    width: 320px;
+    height: 240px;
+}
+
+// Codepen
+iframe {
+    width: 100%;
+    box-shadow: 20px 20px 0 0px rgba(0, 0, 0, 0.25), 0px 0px 0 0 rgba(0, 0, 0, 0.25);
+    margin: 50px 0px;
+}
+code {
+    background-color: $orange;
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 6px;
+}
+
+// Contact me message at the end of every project
+.project-contact-me {
+    text-align: center;
+    margin-top: 25px;
+}
+
+// Links
+.project-detail-links a button {
+    margin-right: 10px;
+}
+// Scroll to top button
+.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+    padding: 10px 12px;
+    border: none;
+    background-color: $darkGrey;
+    fill: white;
+    transform: scale(0.8);
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 100px;
+}
+.next-wrapper {
+    text-align: center;
+}
+.next-btn {
+    margin: 50px 0px;
+    padding: 10px 12px;
+    border: none;
+    background-color: white;
+    color: $orange;
+    border-radius: 100px;
+}
+.back-to-top:hover,
+.next-btn:hover {
+    border: none;
+    background-color: $orange;
+    color: white;
+    transition-duration: 0.4s;
+}

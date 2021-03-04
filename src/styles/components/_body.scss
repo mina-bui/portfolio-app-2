@@ -1,0 +1,98 @@
+// Body
+
+body {
+    background-color: $dark;
+    background-image: linear-gradient(to bottom right, $orange, purple);
+    color: $light;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+// Headings
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $headingFont;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+h1 {
+    font-family: $headingFont;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 54px;
+    margin-bottom: 0.6em;
+}
+
+h3 {
+    font-family: $bodyFont;
+    font-size: 2.25em;
+    margin-bottom: 0.4em;
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: $bodyFont;
+    font-size: 1.75em;
+    line-height: 32px;
+    margin-bottom: 0.2em;
+    font-weight: none;
+}
+
+// Paragraphs, Lists, Links
+p,
+li {
+    font-size: 1.4em;
+    line-height: 25px;
+}
+nav li {
+    font-size: 1.2em;
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover:not(nav a) {
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+
+// Buttons
+
+.round-btn {
+    background-color: transparent;
+    border: 2px solid $light;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: $light;
+    font-weight: bold;
+}
+.round-btn:hover {
+    background-color: $light;
+    color: $orange;
+    font-weight: bold;
+    border: 2px solid $orange;
+    transition-duration: 0.4s;
+}
+
+// text selection color
+::selection {
+    background: purple; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: purple; /* Gecko Browsers */
+}
