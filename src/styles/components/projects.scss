@@ -204,17 +204,11 @@ code {
     text-align: center;
 }
 .next-btn {
+    background-color: none;
+    fill: white;
     margin: 50px 0px;
-    padding: 10px 12px;
-    border: none;
-    background-color: white;
-    color: $orange;
-    border-radius: 100px;
 }
 .back-to-top:hover,
 .next-btn:hover {
-    border: none;
-    background-color: $orange;
-    color: white;
     transition-duration: 0.4s;
 }

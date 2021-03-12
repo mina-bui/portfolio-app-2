@@ -13,9 +13,15 @@ import PortfolioSingleProjectMob from '../images/portfolio/single-project-mobile
 import PortfolioMoodBoard from '../images/portfolio/portfolio-mood-board.png';
 import PortfolioSiteMap from '../images/portfolio/portfolio-site-map-1.png';
 import PopupMessage from '../images/popup-message.png';
+// Import screenshots of website
+import UpdatedPortfolioHome from '../images/react-portfolio-screenshots/updated-portfolio-home.png';
+import UpdatedPortfolioAbout from '../images/react-portfolio-screenshots/updated-portfolio-about.png';
+import UpdatedPortfolioSingle from '../images/react-portfolio-screenshots/updated-portfolio-project.png';
+import UpdatedPortfolioSingleCont from '../images/react-portfolio-screenshots/updated-portfolio-project-cont.png';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
+import ReactPlayer from 'react-player/youtube';
 // Get images for project site previews
 import portfolioLaptop from '../images/portfolio-home-laptop.png';
 
@@ -85,9 +91,7 @@ const Portfolio = () => (
 					<div className="hidden-on-mobile">
 						<div className="next-wrapper">
 							<a href="#next">
-								<button className="next-btn">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z" /></svg>
-								</button>
+								<svg className="next-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z" /></svg>
 							</a>
 						</div>
 					</div>
@@ -106,6 +110,13 @@ const Portfolio = () => (
 								<li>HTML5</li>
 								<li>GitHub</li>
 							</ul>
+						</div>
+
+						<div className="project-detail">
+							<h3 className="project-detail-title">How It Works</h3>
+							<div className="project-detail-video">
+								<ReactPlayer url='https://youtu.be/4plzslo6ILo' />
+							</div>
 						</div>
 					</Reveal>
 
@@ -172,6 +183,39 @@ const Portfolio = () => (
 					<p>
 						In my first iteration of my wireframe, I was playing with the colors. I ultimately decided to go with an inversion of colors. I also decided against adding a hamburger menu, to simplify the user experience.
 					</p>
+
+					{/* Site Screenshots */}
+					<div className="project-detail">
+						<h3 className="project-detail-title">Site Screenshots</h3>
+						<div className="project-detail-gallery">
+							<SRLWrapper options={options}>
+								<a href={UpdatedPortfolioHome}>
+									<img src={UpdatedPortfolioHome}
+										alt="The Home page, where users are shown an introduction of me and what I do. They are also shown a series of latest works that showcase my skills as a front end developer."
+										title="Click to view full screen" />
+								</a>
+
+								<a href={UpdatedPortfolioAbout}>
+									<img src={UpdatedPortfolioAbout}
+										alt="The About page, where users can read if they would like to know more about me and who I am. It also shows my strongest skills, as well as a bit about my educational background and hobbies."
+										title="Click to view full screen" />
+								</a>
+
+								<a href={UpdatedPortfolioSingle}>
+									<img src={UpdatedPortfolioSingle}
+										alt="A screenshot of a bit of a project  page, where a brief description of the project, my role, the skils used, and the purpose of the site is touched upon. There is also a video walkthrough of the live site which can be played anytime."
+										title="Click to view full screen" />
+								</a>
+
+								<a href={UpdatedPortfolioSingleCont}>
+									<img src={UpdatedPortfolioSingleCont}
+										alt="The project page, continued. This features a bit of my thoughts on the hardest challenges in creating the project, as well as some code excerpts from the project."
+										title="Click to view full screen" />
+								</a>
+							</SRLWrapper>
+						</div>
+
+					</div>
 
 					<div className="project-detail">
 						<h3 className="project-detail-title">Biggest Challenges</h3>
