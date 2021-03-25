@@ -270,8 +270,8 @@ const Brochure = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://mbui.bcitwebdeveloper.ca/brochure/index.html" title="https://mbui.bcitwebdeveloper.ca/brochure/index.html" target="_blank" rel="noreferrer" >
-								<button className="round-btn">Live Site </button>
+							<a href="http://keepitcheesy.minabui.com/" title="http://keepitcheesy.minabui.com/" target="_blank" rel="noreferrer" >
+								<button className="round-btn">View Live </button>
 							</a>
 							<a href="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" title="https://github.com/v-nguyen6/HTML_CSS_P03_Business_Brochure" target="_blank" rel="noreferrer" >
 								<button className="round-btn">Github </button>

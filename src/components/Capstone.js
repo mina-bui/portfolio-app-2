@@ -291,8 +291,8 @@ const Capstone = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://www.etoile.bcitwebdeveloper.ca/"
-								title="https://www.etoile.bcitwebdeveloper.ca/" target="_blank" rel="noreferrer" >
+							<a href="https://etoile.minabui.com/"
+								title="https://etoile.minabui.com/" target="_blank" rel="noreferrer" >
 								<button className="round-btn">View Live </button>
 							</a>
 

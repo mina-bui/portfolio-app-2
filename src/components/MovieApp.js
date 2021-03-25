@@ -268,8 +268,8 @@ const Projects = () => (
 					<div className="project-detail">
 						<h3 className="project-detail-title">Links</h3>
 						<div className="project-detail-links">
-							<a href="https://mbui.bcitwebdeveloper.ca/twd-movie-app/"
-								title="https://mbui.bcitwebdeveloper.ca/twd-movie-app/" target="_blank" rel="noreferrer" >
+							<a href="http://filmdex.minabui.com/twd-movie-app/"
+								title="http://filmdex.minabui.com/twd-movie-app/" target="_blank" rel="noreferrer" >
 								<button className="round-btn">View Live </button>
 							</a>
 
