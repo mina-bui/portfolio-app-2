@@ -19,6 +19,8 @@ npm start
 
 * [Javascript](https://www.javascript.com/)
 * [React.js create-react-app](https://create-react-app.dev/)
+* [HTML](https://html.spec.whatwg.org/)
+* [Google Fonts](https://fonts.google.com/)
 * [Sass](https://sass-lang.com/)
 * [npm](https://www.npmjs.com/)
 * [Node.js](https://nodejs.org/en/)
