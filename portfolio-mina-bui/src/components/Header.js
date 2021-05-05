@@ -19,6 +19,7 @@ const Header = () => {
 				<Nav />
 			</div>
 			<ScrollToTop smooth component={<MySVG />} className="back-to-top" />
+
 		</header>
 
 	);

@@ -1,9 +1,8 @@
 // Body
 
 body {
-    background-color: $dark;
-    background-image: linear-gradient(to bottom right, $orange, purple);
-    color: $light;
+    background-color: white;
+    color: $dark;
     font-weight: 300;
     font-size: 16px;
 }
@@ -22,33 +21,31 @@ h6 {
 h1 {
     font-family: $headingFont;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 32px;
     text-transform: uppercase;
-    font-weight: bold;
     letter-spacing: 2px;
 }
 
 h2 {
     font-size: 3em;
+    font-weight: 500;
     line-height: 54px;
     margin-bottom: 0.6em;
 }
 
 h3 {
-    font-family: $bodyFont;
     font-size: 2.25em;
+    font-weight: 500;
     margin-bottom: 0.4em;
     margin-top: 1.5em;
-    font-weight: bold;
 }
 
 h4 {
-    font-family: $bodyFont;
     font-size: 1.75em;
+    font-weight: 500;
     line-height: 32px;
     margin-bottom: 0.2em;
-    font-weight: none;
 }
 
 // Paragraphs, Lists, Links
@@ -58,11 +55,13 @@ li {
     line-height: 25px;
 }
 nav li {
+    font-family: $headingFont;
     font-size: 1.2em;
     line-height: 32px;
 }
 
 a {
+    font-family: $headingFont;
     text-decoration: underline;
 }
 
@@ -76,10 +75,10 @@ a:hover:not(nav a) {
 
 .round-btn {
     background-color: transparent;
-    border: 2px solid $light;
+    border: 2px solid $dark;
     border-radius: 25px;
     padding: 10px 30px;
-    color: $light;
+    color: $dark;
     font-weight: bold;
 }
 .round-btn:hover {

@@ -1,7 +1,7 @@
 // Header
 
 header {
-    background-color: none;
+    background-color: blue;
     margin: 10px 0px 50px 0px;
     padding: 0px 25px;
     // Flex Styling
@@ -10,6 +10,6 @@ header {
     //
     a {
         text-decoration: none;
-        color: $light;
+        color: $dark;
     }
 }

@@ -3,6 +3,9 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import image1 from '../images/new/image1.jpg';
+import image2 from '../images/new/image2.jpg';
+import image3 from '../images/new/image3.jpg';
 // react-reveal for animations!
 // (note: it's only animating what the user can see in the browser to prevent slowing down the site)
 import Reveal from 'react-reveal/Reveal';
@@ -23,10 +26,10 @@ const Home = (props) => {
                     <section>
                         <div className="home-introduction">
                             <div className="page-info">
-                                <h2 id="text">Hey, Mina here.</h2>
-
+                                <h2 id="text">Mina Bui</h2>
+                                <img src={image1} />
                                 <h4>
-                                    Front end web developer &#x26; designer in Vancouver. <br />
+                                    Front end web developer &#x26;. <br />
                                     Focused on building simple, responsive user interfaces.
                                 </h4>
 

@@ -1,7 +1,7 @@
 // Footer
 
 footer {
-    color: $light;
+    color: $dark;
     font-size: 0.9em;
     padding: $section-padding;
     background-color: none;
@@ -21,7 +21,7 @@ footer {
     }
     // Social Media
     a {
-        color: $light;
+        color: $dark;
     }
     span :not(.twitter-icon) {
         margin-right: 10px;

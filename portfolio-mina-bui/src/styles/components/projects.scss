@@ -59,7 +59,7 @@ h2.project-detail-subtitle {
         margin: 5px 5px;
         padding: 2px 8px;
         border: 2px solid white;
-        background-color: white;
+        background-color: transparent;
         color: $darkOrange;
         border-radius: 10px;
     }
@@ -82,7 +82,7 @@ h2.project-detail-subtitle {
     }
 }
 #etoile-ia-background {
-    background-color: white;
+    background-color: transparent;
     padding: 25px 25px;
 }
 .project-detail-gallery {
@@ -207,7 +207,7 @@ code {
     margin: 50px 0px;
     padding: 10px 12px;
     border: none;
-    background-color: white;
+    background-color: transparent;
     color: $orange;
     border-radius: 100px;
 }

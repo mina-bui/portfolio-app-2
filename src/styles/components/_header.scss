@@ -1,15 +1,14 @@
 // Header
 
 header {
-    background-color: none;
-    margin: 10px 0px 50px 0px;
-    padding: 0px 25px;
+    background-color: #83ba36;
+    padding: 10px 25px 10px 25px;
     // Flex Styling
     display: flex;
     justify-content: space-between;
     //
     a {
         text-decoration: none;
-        color: $light;
+        color: $dark;
     }
 }

@@ -3,6 +3,7 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import headshot from '../images/social-media/headshot.png';
+import image2 from '../images/new/image2.jpg';
 // react-reveal for animations!
 import Reveal from 'react-reveal/Reveal';
 
@@ -50,7 +51,7 @@ const About = () => (
 
 					<div className="about-headshot">
 						<div className="headshot-wrapper">
-							<img src={headshot} alt="Mina Bui's headshot" className="headshot" />
+							<img src={image2} alt="Mina Bui's headshot" className="headshot" />
 						</div>
 
 					</div>
