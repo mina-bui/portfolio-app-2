@@ -5,7 +5,7 @@
 In February 2021, I worked alone to produce my portfolio site, whose main goal is to showcase the projects I've designed and developed during my time in the BCIT Front End Developer program. The website was created using ReactJS by first installing npm, node.js, and create-react-app, and then adding in the HTML, Sass, and JS files. I wanted to create an enjoyable, seamless user experience where I could show my love for design and coding.
 
 * [Link to deployed version](http://twdportfolio.minabui.com/)
-* [Read more on my portfolio site](https://www.minabui.com/portfolio)
+* [Read more on my portfolio site](http://twdportfolio.minabui.com/portfolio)
 
 ## How to Load the App
 
